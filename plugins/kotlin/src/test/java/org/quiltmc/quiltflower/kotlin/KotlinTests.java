@@ -40,6 +40,7 @@ public class KotlinTests extends SingleClassesTestBase {
     register(KOTLIN, "TestConvertedK2JOps");
     // TODO: Does not decompile to data class
     register(KOTLIN, "TestDataClass");
+    register(KOTLIN, "TestDelegate");
     // TODO: Does not decompile to destructuring declaration
     register(KOTLIN, "TestDestructors");
     register(KOTLIN, "TestExtensionFun");
